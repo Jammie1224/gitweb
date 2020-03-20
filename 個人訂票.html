@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+	
+   <head> 
+      <meta charset = "utf-8">
+      <title>個人訂票</title>
+	  <link href="style_3.css" rel="stylesheet" type="text/css">
+   </head>
+ 
+    <body>
+		
+		<h1 style = "color: #000066; text-align:center; font-weight:bolder">台鐵訂票系統</h1>
+		<h2 style = "color: #000066; text-align:center; font-weight:bolder"> 線上訂票 </h2>
+		
+		<div class = "lala"> 
+			<font size = "1"> 
+				<a href="test.html" style="text-decoration:none; color:#000066;">
+					<h1>回首頁</h1> 
+				</a>
+			</font>
+		</div>
+		
+		<div> 
+			<img src =" 7.png" class = "picture_2">
+			<img src = "thomas-the-tank-engine-95382.jpg" class ="picture_1">  	
+			<img src = "depositphotos_227029094-stock-illustration-simple-black-white-freehand-drawn.jpg" class = "smoke">			
+			<img src =" 火車卡通圖-1200x628 (1).jpg" class = "picture_8">
+			<img src =" knhl.png" class = "picture">
+		</div>
+		
+		<form method ="post" action ="ticket.php">
+			<table>
+				<input type="date" class = "date" name="day">
+			</table>
+		
+			<select name = "start" class ="startselect">
+				<option value = "0" selected hidden>起點站</option>
+				<option value = "1">基隆</option>
+				<option value = "2">七堵</option>
+				<option value = "3">南港</option>
+				<option value = "4">松山</option>
+				<option value = "5">台北</option>
+				<option value = "6">萬華</option>
+				<option value = "7">板橋</option>
+				<option value = "8">樹林</option>
+				<option value = "9">桃園</option>
+				<option value = "10">中壢</option>
+				<option value = "11">新竹</option>
+				<option value = "12">竹南</option>
+				<option value = "13">苗栗</option>
+				<option value = "14">豐原</option>
+				<option value = "15">台中</option>
+				<option value = "16">彰化</option>
+				<option value = "17">員林</option>
+				<option value = "18">斗六</option>
+				<option value = "19">嘉義</option>
+				<option value = "20">新營</option>
+				<option value = "21">台南</option>
+				<option value = "22">岡山</option>
+				<option value = "23">新左營</option>
+				<option value = "24">高雄</option>
+				<option value = "25">屏東</option>
+				<option value = "26">潮州</option>
+				<option value = "27">台東</option>
+				<option value = "28">玉里</option>
+				<option value = "29">花蓮</option>
+				<option value = "30">蘇澳新</option>
+				<option value = "31">宜蘭</option>
+				<option value = "32">瑞芳</option>
+			</select>
+			
+			<select name = "終點站" class = "select_2">
+				<option value = "0" selected hidden>終點站</option>
+				<option value = "1">基隆</option>
+				<option value = "2">七堵</option>
+				<option value = "3">南港</option>
+				<option value = "4">松山</option>
+				<option value = "5">台北</option>
+				<option value = "6">萬華</option>
+				<option value = "7">板橋</option>
+				<option value = "8">樹林</option>
+				<option value = "9">桃園</option>
+				<option value = "10">中壢</option>
+				<option value = "11">新竹</option>
+				<option value = "12">竹南</option>
+				<option value = "13">苗栗</option>
+				<option value = "14">豐原</option>
+				<option value = "15">台中</option>
+				<option value = "16">彰化</option>
+				<option value = "17">員林</option>
+				<option value = "18">斗六</option>
+				<option value = "19">嘉義</option>
+				<option value = "20">新營</option>
+				<option value = "21">台南</option>
+				<option value = "22">岡山</option>
+				<option value = "23">新左營</option>
+				<option value = "24">高雄</option>
+				<option value = "25">屏東</option>
+				<option value = "26">潮州</option>
+				<option value = "27">台東</option>
+				<option value = "28">玉里</option>
+				<option value = "29">花蓮</option>
+				<option value = "30">蘇澳新</option>
+				<option value = "31">宜蘭</option>
+				<option value = "32">瑞芳</option>
+			</select>
+			
+			<select name = "type" class = "select_3">
+				<option value = "0" selected hidden>車型</option>
+				<option value = "1">自強號</option>
+				<option value = "2">太魯閣號</option>
+				<option value = "3">普悠瑪號</option>
+				<option value = "4">莒光號</option>
+			</select>
+			
+			<input class = "bonbon" type="submit" value="搜尋">
+		</form>
+		
+
+	</body>
+	
+</html>

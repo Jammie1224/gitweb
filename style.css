@@ -1,0 +1,96 @@
+.lala {
+	color: #000066;
+	text-align:center;
+}
+
+.smoke {
+	position : absolute;
+	top : 59%;
+	width :5%;
+	left : 5%;
+}
+
+.picture_1 {
+	position : absolute;
+	top : 63%;
+	width : 20%;
+}
+
+
+.picture_2 {
+	position : absolute;
+	left : 39%;
+	top : 0%;
+	width : 50px;
+}
+
+.picture_3 {
+	position : absolute;
+	left : 35%;
+	top : 20%;
+	width: 10%;
+}
+
+.picture_4 {
+	position : absolute;
+	left : 36%;
+	top : 42%;
+	width : 8%;
+}	
+
+.picture_5 {
+	position : absolute;
+	left : 36%;
+	top : 60%;
+	width : 8%;
+}
+
+.picture_6 {
+	position : absolute;
+	left : 75%;
+	top : 13%;
+	width : 10%;
+}
+
+.picture_7 {
+	position : absolute;
+	left : 65%;
+	top : 12%;
+	width : 10%;
+}
+
+.picture_8 {
+	position : absolute;
+	right : 13%;
+	top : 67%;
+	width : 15%;
+}
+
+.haha {
+	position : absolute;
+	border-style : solid;
+	left : 45%;
+	top : 26%;
+	width : 150px;
+	padding : 5px;
+}
+.wawa {
+	position : absolute;
+	border-style : solid;
+	left : 45%;
+	top : 48%;
+	width : 150px;
+	padding : 5px;
+}
+
+.bonbon {
+	position : absolute;
+	border-style : solid;
+	left : 45%;
+	top : 68%;
+	width : 150px;
+	padding : 5px;
+}
+
+
+

@@ -1,0 +1,146 @@
+.lala {
+	color: #000066;
+	text-align:center;
+}
+
+.smoke {
+	position : absolute;
+	top : 59%;
+	width :5%;
+	left : 5%;
+}
+
+.picture_1 {
+	position : absolute;
+	top : 63%;
+	width : 20%;
+}
+
+.picture_2 {
+	position : absolute;
+	left : 39%;
+	top : 0%;
+	width : 50px;
+}
+
+.picture_6 {
+	position : absolute;
+	left : 75%;
+	top : 10%;
+	width : 5%;
+}
+
+.picture_7 {
+	position : absolute;
+	left : 65%;
+	top : 10%;
+	width : 5%;
+}
+
+.picture_8 {
+	position : absolute;
+	right : 3%;
+	top : 5%;
+	width : 8%;
+}
+
+.picture_10 {
+	position : absolute;
+	right : 3%;
+	top : 63%;
+	width : 15%;
+}
+
+.picture_11 {
+	position : absolute;
+	right : 1%;
+	top : 63%;
+	width : 28%;
+}
+
+.picture_12 {
+	position : absolute;
+	right : 0%;
+	top : 48%;
+	width : 25%;
+}
+
+.picture_13{
+	position : absolute;
+	right : 0%;
+	top : 58%;
+	width : 35%;
+}
+
+.picture {
+	position : absolute;
+	right : 3%;
+	top : 60%;
+	width : 17%;
+}
+
+.word {
+	position : absolute;
+	right : 8%;
+	top : 85%;
+}
+
+.word_1 {
+	position : absolute;
+	right : 55%;
+	top : 40%;
+}
+
+.word_2 {
+	position : absolute;
+	right : 35%;
+	top : 40%;
+}
+
+.picture_9 {
+	position : absolute;
+	right : 3%;
+	top : 58%;
+	width : 14%;
+}
+
+.type_table
+{
+	position: absolute;
+	top : 22%;
+	left :12%;
+}
+
+.record {
+	position : absolute;
+	right : 0%;
+	top : 89%;
+	width : 30%;
+}
+
+.bonbon {
+	position : absolute;
+	left : 58%;
+	top : 25%;
+}
+
+.result_table{
+	border : 1;
+}
+
+.trainNumber{
+	position : absolute;
+	right : 53%;
+	top : 25%;
+	width : 5%;
+	height : 5%;
+}
+
+.correct{
+	position: absolute;
+	left : 50%;
+	top : 85%;
+	width : 5%;
+	height : 5%;
+	
+}
